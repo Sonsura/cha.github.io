@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+* { margin: 0; padding: 0; color: #333; list-style-type: none;}
+a { text-decoration: none; display: block; }
+
+body {
+    width: 1000px;
+    height: 650px;
+    background-color: #fff;
+}
+
+.top {
+    width: 200px;
+    height: 650px;
+    float: left;
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+}
+
+.menu {
+    width: 200px;
+    height: 500px;
+}
+
+.main>li>a {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: beige;
+}
+
+.main>li>a:hover {
+    background-color: antiquewhite;
+}
+
+.sub>li>a {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgb(221, 221, 148);
+}
+
+.sub>li>a:hover {
+    background-color: rgb(224, 192, 152);
+}
+
+.sub {
+    display: none;
+}
+
+.img {
+    width: 800px;
+    height: 350px;
+    float: left;
+}
+
+.contents {
+   width: 800px;
+   height: 200px; 
+   float: right;
+}
+
+.gal {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+.ban {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+.go {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.bottom {
+    width: 800px;
+    height: 100px;
+    float: left;
+}
+
+.logo2 {
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.bottom_right {
+    width: 600px;
+    height: 100px;
+    float: left;
+}
+
+.menu2 {
+    width: 600px;
+    height: 50px;
+}
+
+.copy {
+    width: 600px;
+    height: 50px;
+}
+
+
